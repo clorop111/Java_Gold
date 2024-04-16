@@ -1,0 +1,5 @@
+var sql = "delete from item where id = ?";
+try(var ps= con.preparedStatment(sql)){
+    ps.setInt(0, 1);
+    ps.executeUpdate();
+}
