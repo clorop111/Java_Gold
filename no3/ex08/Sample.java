@@ -17,8 +17,13 @@ public class Sample {
       }
     });
 
-    // if (future.get() == null) {
-    //   System.out.println("finish");
-    // }
+    try {
+      if (future.get() == null) {
+        System.out.println("finish");
+      }
+    } catch (Exception e) {
+      Thread.currentThread().interrupt(); // Here!
+      throw new RuntimeException(e);
+    }
   }
 }
