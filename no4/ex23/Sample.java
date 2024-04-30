@@ -9,7 +9,7 @@ public class Sample {
     List<Integer> result =
             list.stream()
                 .filter(n -> n % 2 ==0)
-                ./*insert code here */collect(Collectors.toList());
+                .collect(Collectors.toList());
     result.forEach(System.out::println);                
   } 
 }
