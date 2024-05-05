@@ -7,7 +7,7 @@ public class CollectorSample {
   public static void main(String[] args) {
     List<String> list = Arrays.asList("A","B","C","D","E");
 
-    String result = list.stream().collect(new SampleCollector());
+    String result = list.stream().collect(new SampleCollector2());
     System.out.println(result);
   }
 }
