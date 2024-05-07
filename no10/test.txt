@@ -1,0 +1,3 @@
+hello=こんにちは
+
+// native2ascii test.txt test.propaties
