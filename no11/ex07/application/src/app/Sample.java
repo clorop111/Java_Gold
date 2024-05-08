@@ -15,7 +15,7 @@ public class Sample {
 
 
 
-//      javac -d bin -sourcepath src src\app\Sample.java 
-//      javac -d bin -sourcepath src src\app\Hello.java 
+//      javac -d bin/app src/app/Hello.java 
+//      javac -d bin/app src/app/Sample.java 
 
 //      javac -classpath /Users/furuzonotaiju/java_gold/java/no11/ex07/library/src/lib/ /Users/furuzonotaiju/java_gold/java/no11/ex07/library/src/lib/HelloImple.java
