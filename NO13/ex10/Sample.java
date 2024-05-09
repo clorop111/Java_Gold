@@ -1,4 +1,4 @@
-package ex09;
+package ex10;
 
 public class Sample {
     public static void main(String[] args) {

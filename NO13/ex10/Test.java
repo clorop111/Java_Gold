@@ -1,4 +1,4 @@
-package ex09;
+package ex10;
 
 public class Test implements AutoCloseable {
     @Override

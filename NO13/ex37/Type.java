@@ -14,10 +14,10 @@ public enum Type {
     //  String toString() {
     //     return "2";
     // }
-    // public String toString() {
-    //     return String.valueOf(A.num);
-    //}
     public String toString() {
-        return String.valueOf(num);
+        return String.valueOf(A.num);
     }
+    // public String toString() {
+    //     return String.valueOf(num);
+    // }
 }
